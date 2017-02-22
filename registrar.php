@@ -10,10 +10,7 @@
   $empresa = $_POST['empresa'];
   $evento = $_POST['evento'];
 
-  $query = "INSERT INTO `Asistente`
-  (`Nombre`, `Correo`, `Telefono`, `Edad`, `Tipo`, `Institucion`, `Empresa`, `Evento`)
-   VALUES
-   (`$nombre`,`$correo`,$telefono,$edad,`$tipo`,`$institucion`,`$empresa`,`$evento`)";
+  $query = "INSERT INTO Asistente(Nombre, Correo, Telefono, Edad, Tipo, Institucion, Empresa, Evento) VALUES('$nombre','$correo',$telefono,$edad,'$tipo','$institucion','$empresa','$evento')"
 
    $resultado = $connect->query($query);
 
