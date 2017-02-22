@@ -242,27 +242,27 @@
         <div class="input-field col s6">
           <i class="material-icons prefix">mail</i>
           <input id="icon_telephone" type="number" name="edad" class="validate">
-          <label for="icon_telephone">Correo Electrónico</label>
+          <label for="icon_telephone">Edad</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">mail</i>
           <input id="icon_telephone" type="text" name="tipoasistente" class="validate">
-          <label for="icon_telephone">Correo Electrónico</label>
+          <label for="icon_telephone">Grado</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">mail</i>
           <input id="icon_telephone" type="text" name="institucion" class="validate">
-          <label for="icon_telephone">Correo Electrónico</label>
+          <label for="icon_telephone">institución</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">mail</i>
           <input id="icon_telephone" type="text" name="empresa" class="validate">
-          <label for="icon_telephone">Correo Electrónico</label>
+          <label for="icon_telephone">Empresa</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">mail</i>
           <input id="icon_telephone" type="text" name="evento" class="validate">
-          <label for="icon_telephone">Correo Electrónico</label>
+          <label for="icon_telephone">Evento</label>
         </div>
       </div>
       <div class="row right-align">
