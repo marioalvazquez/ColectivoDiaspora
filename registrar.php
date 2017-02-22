@@ -15,7 +15,7 @@
    VALUES
    (`$nombre`,`$correo`,$telefono,$edad,`$tipo`,`$institucion`,`$empresa`,`$evento`)";
 
-   $resultado = $conexion->query($query);
+   $resultado = $connect->query($query);
 
    if ($resultado) {
      echo "insert exitoso";
