@@ -15,9 +15,9 @@
   $resultado = $connect->query($query);
 
    if ($resultado) {
-     echo "insert exitoso";
+     echo "<p>Registro exitoso";
    }
    else{
-     echo "no se pudo";
+     echo "<p>Registro no fue exitoso";
    }
  ?>

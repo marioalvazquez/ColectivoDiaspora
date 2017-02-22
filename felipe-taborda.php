@@ -218,50 +218,58 @@
     <div class="row">
       <ul id="tabs-swipe-demo" class="tabs">
     <li class="tab col s6"><a href="#taller">Taller</a></li>
-    <li class="tab col s6"><a href="#conferencia">Conferencia</a></li>
   </ul>
   <div id="registro" class="col s12">
-    <form class="col s12" method="post" action="registrar.php">
+    <form class="col s12" method="post" action="registrar.php" id="formulario">
       <div class="row">
         <p>¡Cupo limitado a 100 personas!</p>
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" name="nombre" type="text" class="validate">
           <label for="icon_prefix">Nombre</label>
         </div>
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6">
           <i class="material-icons prefix">phone</i>
           <input id="icon_telephone" name="telefono" type="tel" class="validate" minlength="10" maxlength="10">
           <label for="icon_telephone">Teléfono</label>
         </div>
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6">
           <i class="material-icons prefix">mail</i>
-          <input id="icon_telephone" type="email"  name="correo" class="validate">
+          <input id="" type="email"  name="correo" class="validate">
           <label for="icon_telephone">Correo Electrónico</label>
         </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">mail</i>
-          <input id="icon_telephone" type="number" name="edad" class="validate">
+        <div class="input-field col s12 m6">
+          <i class="material-icons prefix">person_pin</i>
+          <input id="" type="number" name="edad" class="validate">
           <label for="icon_telephone">Edad</label>
         </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">mail</i>
-          <input id="icon_telephone" type="text" name="tipoasistente" class="validate">
-          <label for="icon_telephone">Grado</label>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">stars</i>
+          <select name="tipoasistente" class="validate" id="tipoAsistente">
+            <option value="" disabled selected>Selecciona tu perfil</option>
+            <option value="Estudiante">Estudiante</option>
+            <option value="Profesionista">Profesionista</option>
+          </select>
+          <label for="icon_telephone">Perfil</label>
         </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">mail</i>
-          <input id="icon_telephone" type="text" name="institucion" class="validate">
-          <label for="icon_telephone">institución</label>
+        <div class="input-field col s12 estudiante">
+          <i class="material-icons prefix">mode_edit</i>
+          <input id="institucion" type="text" name="institucion" class="validate">
+          <label for="icon_telephone">Institución</label>
         </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">mail</i>
-          <input id="icon_telephone" type="text" name="empresa" class="validate">
+        <div class="input-field col s12 profesionista">
+          <i class="material-icons prefix">work</i>
+          <input id="empresa" type="text" name="empresa" class="validate">
           <label for="icon_telephone">Empresa</label>
         </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">mail</i>
-          <input id="icon_telephone" type="text" name="evento" class="validate">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">turned_in</i>
+          <select name="evento" class="validate">
+            <option value="" disabled selected>Participación</option>
+            <option value="Conferencia">Conferencia</option>
+            <option value="Taller">Taller</option>
+            <option value="Ambos">Ambos</option>
+          </select>
           <label for="icon_telephone">Evento</label>
         </div>
       </div>
@@ -323,6 +331,27 @@
         $(".button-collapse").sideNav();
         $('.carousel.carousel-slider').carousel({fullWidth: true});
         $('.parallax').parallax();
+        $('select').material_select();
+        $(".estudiante, .profesionista").fadeOut();
+        $("#formulario").change(function(){
+          var $selection = $( "#tipoAsistente option:selected" ).text();
+          if ($selection == "Estudiante") {
+            $(".estudiante").fadeIn();
+            $(".profesionista").fadeOut();
+            $("#institucion").val("");
+            $("#empresa").val("No Aplica");
+
+          }
+          else if ($selection == "Profesionista") {
+            $(".profesionista").fadeIn();
+            $(".estudiante").fadeOut();
+            $("#institucion").val("No Aplica");
+            $("#empresa").val("");
+          }
+          else{
+            $(".estudiante, .profesionista").fadeOut();
+          }
+        })
       })
       </script>
     </body>
