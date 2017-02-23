@@ -6,17 +6,17 @@
 <div class="nav-wrapper container">
   <a id="logo-container" href="#" class="brand-logo  texto-amarillo">Colectivo Diaspora</a>
   <ul class="right hide-on-med-and-down">
-    <li><a href="felipe-taborda.php/#felipe">Felipe</a></li>
-    <li><a href="felipe-taborda.php/#conferencia">Conferencia</a></li>
-    <li><a href="felipe-taborda.php/#taller">Taller</a></li>
-    <li><a href="felipe-taborda.php/#registro">Registro</a></li>
+    <li><a href="felipe-taborda.php">Felipe</a></li>
+    <li><a href="felipe-taborda.php">Conferencia</a></li>
+    <li><a href="felipe-taborda.php">Taller</a></li>
+    <li><a href="felipe-taborda.php">Registro</a></li>
   </ul>
 
   <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
-    <li><a href="felipe-taborda.php/#felipe">Felipe</a></li>
-    <li><a href="felipe-taborda.php/#conferencia">Conferencia</a></li>
-    <li><a href="felipe-taborda.php/#taller">Taller</a></li>
-    <li><a href="felipe-taborda.php/#registro">Registro</a></li>
+    <li><a href="felipe-taborda.php">Felipe</a></li>
+    <li><a href="felipe-taborda.php">Conferencia</a></li>
+    <li><a href="felipe-taborda.php">Taller</a></li>
+    <li><a href="felipe-taborda.php">Registro</a></li>
   </ul>
   <a href="#" data-activates="nav-mobile" class="button-collapse  texto-amarillo"><i class="material-icons">menu</i></a>
 </div>

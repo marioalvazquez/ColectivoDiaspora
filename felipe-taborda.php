@@ -247,7 +247,7 @@
         </div>
         <div class="input-field col s12 m6">
           <i class="material-icons prefix">person_pin</i>
-          <input id="" type="number" name="edad" class="validate">
+          <input id="" type="number" name="edad" class="validate" maxlength="2">
           <label for="icon_telephone">Edad</label>
         </div>
         <div class="input-field col s12">
