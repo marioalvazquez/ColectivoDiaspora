@@ -43,3 +43,18 @@ h3{
 table.highlight>tbody>tr:hover{
   background-color: rgba(6, 155, 59, 0.3);
 }
+
+.hero{
+  position: relative;
+}
+.hero .contenedor{
+  position: absolute;
+  padding: 50px 20px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0;
+  width: 100%;
+}

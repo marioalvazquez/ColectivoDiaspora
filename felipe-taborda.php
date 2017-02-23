@@ -1,31 +1,25 @@
 <!DOCTYPE html>
   <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="css/index.css"/>
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <?php
+      require("head.php");
+     ?>
 
     <body>
       <nav role="navigation" class="gris">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo  texto-amarillo">Colectivo Diaspora</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Felipe</a></li>
-        <li><a href="#">Conferencia</a></li>
-        <li><a href="#">Taller</a></li>
-        <li><a href="#">Registro</a></li>
+        <li><a href="#felipe">Felipe</a></li>
+        <li><a href="#conferencia">Conferencia</a></li>
+        <li><a href="#taller">Taller</a></li>
+        <li><a href="#registro">Registro</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
-        <li><a href="#">Felipe</a></li>
-        <li><a href="#">Conferencia</a></li>
-        <li><a href="#">Taller</a></li>
-        <li><a href="#">Registro</a></li>
+        <li><a href="#felipe">Felipe</a></li>
+        <li><a href="#conferencia">Conferencia</a></li>
+        <li><a href="#taller">Taller</a></li>
+        <li><a href="#registro">Registro</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse  texto-amarillo"><i class="material-icons">menu</i></a>
     </div>
@@ -35,7 +29,7 @@
 
   <!-- INICIO DE SLIDER -->
 
-      <div class="carousel carousel-slider center" data-indicators="true">
+      <!-- Carrusel deshabilitado temporalmente <div class="carousel carousel-slider center" data-indicators="true">
   <div class="carousel-fixed-item center">
     <a class="btn waves-effect white light-green darken-2">¡Regístrate!</a>
   </div>
@@ -51,6 +45,21 @@
     <h2>Conferencia</h2>
     <p class="white-text">Uno de los más grandes exponentes del diseño en tú ciudad.</p>
   </div>
+</div> -->
+<div class="hero" style="min-height:500px; background:rgba(0,0,0,0.5) url('img/BANNER.jpg'); background-size:cover;background-position:50%;">
+  <div class="contenedor">
+    <div class="row">
+      <div class="col s12 texto-blanco left-align">
+        <h4 style="padding:2rem 0;">Taborda en Aguascalientes</h4>
+        <p style="padding:2rem 0; font-size:1rem;">¡Reserva ya tu lugar! No te pierdas la conferencia y taller en Museo Descubre con uno de los diseñadores internacionales del momento.</p>
+      </div>
+      <div class="col s12 center-align" style="padding:2rem 0;">
+        <a class="btn waves-effect waves-light verde" href="#registro">Regístrate
+          <i class="material-icons right">send</i>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- FIN DE SLIDER -->
@@ -65,22 +74,22 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container" id="#felipe">
     <div class="row">
       <div class="col s12">
         <h3 class="texto-verde">Acerca de Felipe</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <div class="col s12">
-            <div class="card horizontal">
+            <div class="card horizontal hoverable">
               <div class="card-image">
                 <img src="img\felipe.png" style="width:250px;">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <p>¡Hola, soy Felipe desde Brasil!</p>
-                  <p>Nos vemos en Aguascalientes</p>
+                  <p>FELIPE TABORDA Es un diseñador gráfico desde Rio de Janeiro, Brasil. Formado por la PUC / RJ, estudió cine y fotografía en
+                     la London International Film School (Inglaterra), Communication Arts en el New York Institute of Technology y
+                     Graphic Design en la School of Visual Arts (EUA). Desde 1990 tiene su propio estudio, actuando principalmente en el
+                     área cultural, editorial y fotográfica. En 2008 ha publicado su libro Latin American Graphic Design, por la editorial Taschen (Alemania). En 2014 la Universidad St Johns, de Nueva York, organizó la muestra individual Another Point of View, una extensa retrospectiva de sus 30 años de trabajos gráficos.</p>
                 </div>
                 <div class="card-action right-align">
                   <a href="#" class="texto-amarillo">Ver más</a>
@@ -90,11 +99,20 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container" id="conferencia">
     <div class="row">
       <div class="col s12">
         <h3 class="texto-verde">Acerca de la conferencia</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        <p><span style="font-weight:bold; font-style:italic;">¿De dónde vienen las ideas?</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="taller">
+    <div class="row">
+      <div class="col s12">
+        <h3 class="texto-verde">Acerca del Taller</h3>
+        <p><span style="font-weight:bold; font-style:italic;">Creación músical, solo el diseño salva</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
@@ -120,28 +138,16 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Diseño</td>
+                  <td>Creación músical, solo el diseño salva</td>
                   <td>Felipe Taborta</td>
-                  <td>Diseño</td>
-                  <td>4:00 pm</td>
+                  <td>Taller</td>
+                  <td>Jueves, Viernes y Sábado de 10 a 2pm</td>
                 </tr>
                 <tr>
-                  <td>Marketing</td>
+                  <td>¿De dónde vienen las ideas?</td>
                   <td>Felipe Taborta</td>
-                  <td>Diseño</td>
-                  <td>5:00 pm</td>
-                </tr>
-                <tr>
-                  <td>Desarrollo Web</td>
-                  <td>Felipe Taborta</td>
-                  <td>Diseño</td>
-                  <td>6:00 pm</td>
-                </tr>
-                <tr>
-                  <td>Redes Sociales</td>
-                  <td>Felipe Taborta</td>
-                  <td>Diseño</td>
-                  <td>7:00 pm</td>
+                  <td>Conferencia</td>
+                  <td>7:00 pm - 9:00 pm</td>
                 </tr>
               </tbody>
             </table>
@@ -203,14 +209,14 @@
       <div class="col s12">
         <div class="row">
         <ul class="tabs tabs-fixed-width">
-        <li class="tab col s6"><a href="#"><i class="small material-icons">room</i> Av. San Miguel S/N, Jardines del Parque, 20270 Aguascalientes, Ags.</a></li>
+        <li class="tab col s6"><a href="#"><i class="small material-icons">room</i> Museo Descubre, Aguascalientes.</a></li>
         <li class="tab col s6"><a href="#"><i class="small material-icons">schedule</i> 16, 17 y 18 de Marzo de 2017 </a></li>
       </ul>
     </div>
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container" id="registro">
     <div class="row">
       <div class="col s12">
         <h3 class="texto-verde">¡Registrate!</h3>
@@ -220,7 +226,7 @@
       <ul id="tabs-swipe-demo" class="tabs">
     <li class="tab col s6"><a href="#taller">Taller</a></li>
   </ul>
-  <div id="registro" class="col s12">
+  <div class="col s12">
     <form class="col s12" method="post" action="registrar.php" id="formulario">
       <div class="row">
         <p>¡Cupo limitado a 100 personas!</p>
@@ -276,7 +282,7 @@
       </div>
       <div class="row right-align">
         <div class="col s12">
-          <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+          <button class="btn waves-effect waves-light verde" type="submit" name="action">Enviar
           <i class="material-icons right">send</i>
           </button>
         </div>
@@ -290,31 +296,9 @@
 
 
 
-<footer class="page-footer gris texto-blanco">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Pié de página</h5>
-                <p class="texto-amarillo">Una producción de Mario Vázquez.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="texto-amarillo" href="https://www.facebook.com/SomosAlgoMas/">Algo Más Branding</a></li>
-                  <li><a class="texto-amarillo" href="#!">Link 2</a></li>
-                  <li><a class="texto-amarillo" href="#!">Link 3</a></li>
-                  <li><a class="texto-amarillo" href="#!">Link 4</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright grey darken-4">
-            <div class="container">
-            © 2017 Todos los derechos reservados
-            <a class="grey-text text-lighten-4 right" href="#!">Colectivo Diaspora</a>
-            </div>
-          </div>
-        </footer>
+<?php
+require 'footer.php';
+ ?>
 
 
       <!--Import jQuery before materialize.js-->
