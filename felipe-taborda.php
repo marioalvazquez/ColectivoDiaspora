@@ -5,15 +5,15 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheer" type="text/css" href="css\index.css"/>
+      <link rel="stylesheet" type="text/css" href="css/index.css"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
-      <nav role="navigation">
+      <nav role="navigation" class="gris">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Colectivo Diaspora</a>
+      <a id="logo-container" href="#" class="brand-logo  texto-amarillo">Colectivo Diaspora</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Felipe</a></li>
         <li><a href="#">Conferencia</a></li>
@@ -27,7 +27,7 @@
         <li><a href="#">Taller</a></li>
         <li><a href="#">Registro</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse  texto-amarillo"><i class="material-icons">menu</i></a>
     </div>
   </nav>
       <!-- INICIO DE HEADER -->
@@ -37,9 +37,9 @@
 
       <div class="carousel carousel-slider center" data-indicators="true">
   <div class="carousel-fixed-item center">
-    <a class="btn waves-effect white grey-text darken-text-2">¡Regístrate!</a>
+    <a class="btn waves-effect white light-green darken-2">¡Regístrate!</a>
   </div>
-  <div class="carousel-item blue white-text" href="#one!">
+  <div class="carousel-item blue white-text carrusel" href="#one!" style="background:url('img\BANNER.jpg'); background-size:cover;background-position:cover,cover;">
     <h2>Felipe en Aguascaientes</h2>
     <p class="white-text">Diseñador brasileño</p>
   </div>
@@ -47,7 +47,7 @@
     <h2>Talleres de diseño</h2>
     <p class="white-text">Cupo limitado a 100 personas</p>
   </div>
-  <div class="carousel-item blue white-text" href="#three!">
+  <div class="carousel-item white-text" href="#three!" style="background:url('img/BANNER.jpg');">
     <h2>Conferencia</h2>
     <p class="white-text">Uno de los más grandes exponentes del diseño en tú ciudad.</p>
   </div>
@@ -59,7 +59,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h3 class="blue-grey-text text-darken-2">Felipe Taborta en Aguascalientes</h3>
+        <h3 class="texto-verde">Felipe Taborta en Aguascalientes</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -68,7 +68,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h3 class="blue-grey-text text-darken-2">Acerca de Felipe</h3>
+        <h3 class="texto-verde">Acerca de Felipe</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -83,7 +83,7 @@
                   <p>Nos vemos en Aguascalientes</p>
                 </div>
                 <div class="card-action right-align">
-                  <a href="#">Ver más</a>
+                  <a href="#" class="texto-amarillo">Ver más</a>
                 </div>
               </div>
           </div>
@@ -93,7 +93,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h3 class="blue-grey-text text-darken-2">Acerca de la conferencia</h3>
+        <h3 class="texto-verde">Acerca de la conferencia</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -102,7 +102,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h3 class="blue-grey-text text-darken-2">Programa</h3>
+        <h3 class="texto-verde">Programa</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -152,7 +152,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Patrocinadores</h1>
+        <h3 class="header center texto-verde">Patrocinadores</h3>
         <div class="row center">
           <h5 class="header col s12 white-text">Conoce a los responsables de que este evento suceda</h5>
         </div>
@@ -191,19 +191,20 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h3 class="blue-grey-text text-darken-2">Ubicación</h3>
+        <h3 class="texto-verde">Ubicación</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
     <div class="row">
       <div class="col s12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14812.105327331385!2d-102.2892594!3d21.85652!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef3f04e851830103!2sDescubre+Museo+Interactivo+de+Ciencia+y+Tecnolog%C3%ADa!5e0!3m2!1ses!2smx!4v1487887167083" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="col s12">
         <div class="row">
         <ul class="tabs tabs-fixed-width">
-        <li class="tab col s6"><a href="#"><i class="small material-icons">room</i> Prol. Zaragoza 210 Aguascalientes, Ags.</a></li>
-        <li class="tab col s6"><a href="#"><i class="small material-icons">schedule</i> 12 de noviembre de 1994, 9:00 a.m. </a></li>
+        <li class="tab col s6"><a href="#"><i class="small material-icons">room</i> Av. San Miguel S/N, Jardines del Parque, 20270 Aguascalientes, Ags.</a></li>
+        <li class="tab col s6"><a href="#"><i class="small material-icons">schedule</i> 16, 17 y 18 de Marzo de 2017 </a></li>
       </ul>
     </div>
       </div>
@@ -212,7 +213,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h3 class="blue-grey-text text-darken-2">¡Registrate!</h3>
+        <h3 class="texto-verde">¡Registrate!</h3>
       </div>
     </div>
     <div class="row">
@@ -289,32 +290,25 @@
 
 
 
-
-
-
-
-
-
-
-<footer class="page-footer  light-blue accent-3">
+<footer class="page-footer gris texto-blanco">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Pié de página</h5>
-                <p class="grey-text text-lighten-4">Una producción de Mario Vázquez.</p>
+                <p class="texto-amarillo">Una producción de Mario Vázquez.</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="texto-amarillo" href="https://www.facebook.com/SomosAlgoMas/">Algo Más Branding</a></li>
+                  <li><a class="texto-amarillo" href="#!">Link 2</a></li>
+                  <li><a class="texto-amarillo" href="#!">Link 3</a></li>
+                  <li><a class="texto-amarillo" href="#!">Link 4</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="footer-copyright light-blue darken-3">
+          <div class="footer-copyright grey darken-4">
             <div class="container">
             © 2017 Todos los derechos reservados
             <a class="grey-text text-lighten-4 right" href="#!">Colectivo Diaspora</a>
@@ -338,15 +332,11 @@
           if ($selection == "Estudiante") {
             $(".estudiante").fadeIn();
             $(".profesionista").fadeOut();
-            $("#institucion").val("");
-            $("#empresa").val("No Aplica");
 
           }
           else if ($selection == "Profesionista") {
             $(".profesionista").fadeIn();
             $(".estudiante").fadeOut();
-            $("#institucion").val("No Aplica");
-            $("#empresa").val("");
           }
           else{
             $(".estudiante, .profesionista").fadeOut();

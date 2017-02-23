@@ -1,14 +1,45 @@
 /*
   Colores
   Gris: #454444;
-  Blanco: ##fcfcfc;
-  Azul: #243666;
-  Verde: #259e47;
-  Amarillo: #ffd200;
-
-
+  Blanco: #fcfcfc;
+  Azul: #243468;
+  Verde: #069B3B;
+  Amarillo: #F2E50D;
 */
 
 h3{
   text-align: center;
+}
+.texto-gris{
+  color: #454444 !important;
+}
+.texto-blanco{
+  color: #fcfcfc !important;
+}
+.texto-azul{
+  color: #243468 !important;
+}
+.texto-verde{
+  color: #069B3B !important;
+}
+.texto-amarillo{
+  color: #F2E50D !important;
+}
+.gris{
+  background-color: #454444 !important;
+}
+.blanco{
+  background-color: #fcfcfc !important;
+}
+.azul{
+  background-color: #243468 !important;
+}
+.verde{
+  background-color: #069B3B !important;
+}
+.amarillo{
+  background-color: #F2E50D !important;
+}
+table.highlight>tbody>tr:hover{
+  background-color: rgba(6, 155, 59, 0.3);
 }
