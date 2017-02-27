@@ -27,7 +27,7 @@
           <div class="card">
             <div class="card-content texto-azul">
               <span class="card-title">Participantes del evento</span>
-              <table class="responsive-table highlight">
+              <table class="responsive-table highlight" id="tabla">
               <thead>
                 <tr>
                     <th data-field="id">Nombre</th>
@@ -67,6 +67,9 @@
               </tbody>
             </table>
             </div>
+            <div class="card-action">
+              <a href="return Descargar();"><i class="small material-icons">swap_vert</i>Descargar</a>
+            </div>
           </div>
         </div>
       </div>
@@ -75,9 +78,13 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/table2excel.min.js"></script>
     <script type="text/javascript">
-      $(document).ready(function(){
-        alert("hello holly");
-      });
+        var Descargar = function(){
+          $("#tabla").table2excel({
+            name: "Participantes",
+            filename: "Participantes",
+            fileext: "xlsx"
+          });
+        }
     </script>
   </body>
 </html>
