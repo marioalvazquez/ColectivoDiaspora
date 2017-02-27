@@ -68,7 +68,7 @@
             </table>
             </div>
             <div class="card-action right-align texto-azul">
-              <a id="descargar"><i class="small material-icons">swap_vert</i>Descargar</a>
+              <a href="#" id="descargar"><i class="small material-icons">swap_vert</i>Descargar</a>
             </div>
           </div>
         </div>
@@ -80,7 +80,6 @@
     <script type="text/javascript">
     $(document).ready(function() {
       $("#descargar").on("click", function(){
-        $(this).preventDefault();
         $("#tabla").table2excel({
           name: "Participantes",
           filename: "Participantes",
