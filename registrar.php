@@ -4,7 +4,7 @@
 <body>
   <nav role="navigation" class="gris">
 <div class="nav-wrapper container">
-  <a id="logo-container" href="#" class="brand-logo  texto-amarillo">Colectivo Diaspora</a>
+  <a id="logo-container" href="#" class="brand-logo  texto-amarillo"><img src="img\logo2.png" style="padding-top:1rem; width:135px;"></a>
   <ul class="right hide-on-med-and-down">
     <li><a href="felipe-taborda.php">Felipe</a></li>
     <li><a href="felipe-taborda.php">Conferencia</a></li>

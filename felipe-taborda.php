@@ -7,7 +7,7 @@
     <body>
       <nav role="navigation" class="gris">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo  texto-amarillo">Colectivo Diaspora</a>
+      <a id="logo-container" href="#" class="brand-logo  texto-amarillo"><img src="img\logo2.png" style="padding-top:1rem; width:135px;"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#felipe">Felipe</a></li>
         <li><a href="#conferencia">Conferencia</a></li>
@@ -50,8 +50,8 @@
   <div class="contenedor">
     <div class="row">
       <div class="col s12 texto-blanco left-align">
-        <h4 style="padding:2rem 0;">Taborda en Aguascalientes</h4>
-        <p style="padding:2rem 0; font-size:1rem;">¡Reserva ya tu lugar! No te pierdas la conferencia y taller en Museo Descubre con uno de los diseñadores internacionales del momento.</p>
+        <h4 class="texto-amarillo titulo">Taborda en<br> Aguascalientes</h4>
+        <p class="subtitulo">¡Reserva ya tu lugar! No te pierdas la conferencia y taller<br> en Museo Descubre con uno de los diseñadores internacionales del momento.</p>
       </div>
       <div class="col s12 center-align" style="padding:2rem 0;">
         <a class="btn waves-effect waves-light verde" href="#registro">Regístrate
@@ -69,8 +69,6 @@
     <div class="row">
       <div class="col s12">
         <h3 class="texto-verde">Felipe Taborta en Aguascalientes</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
   </div>
@@ -99,30 +97,10 @@
       </div>
     </div>
   </div>
-  <div class="container" id="conferencia">
-    <div class="row">
-      <div class="col s12">
-        <h3 class="texto-verde">Acerca de la conferencia</h3>
-        <p><span style="font-weight:bold; font-style:italic;">¿De dónde vienen las ideas?</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container" id="taller">
-    <div class="row">
-      <div class="col s12">
-        <h3 class="texto-verde">Acerca del Taller</h3>
-        <p><span style="font-weight:bold; font-style:italic;">Creación músical, solo el diseño salva</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
   <div class="container">
     <div class="row">
       <div class="col s12">
         <h3 class="texto-verde">Programa</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
     <div class="row">
@@ -198,8 +176,7 @@
     <div class="row">
       <div class="col s12">
         <h3 class="texto-verde">Ubicación</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Nos vemos el 16, 17 y 18 de marzo en las instalaciones del museo descubre.</p>
       </div>
     </div>
     <div class="row">

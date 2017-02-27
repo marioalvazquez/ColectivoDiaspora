@@ -6,9 +6,26 @@
   Verde: #069B3B;
   Amarillo: #F2E50D;
 */
-
+@media (max-width: 480px) {
+  .titulo{
+    font-size: 2rem !important;
+  }
+  .subtitulo{
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+  }
+}
 h3{
   text-align: center;
+}
+h4.texto-amarillo{
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+p.subtitulo{
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 .texto-gris{
   color: #454444 !important;
