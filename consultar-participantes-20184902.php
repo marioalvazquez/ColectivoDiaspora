@@ -4,7 +4,7 @@
   <body>
     <nav role="navigation" class="gris">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo  texto-amarillo"><img src="img\logo2.png" style="padding-top:1rem; width:135px;"></a>
+      <a id="logo-container" href="felipe-taborda.php" class="brand-logo  texto-amarillo"><img src="img\logo2.png" style="padding-top:1rem; width:135px;"></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="felipe-taborda.php">Felipe</a></li>
       <li><a href="felipe-taborda.php">Conferencia</a></li>
@@ -72,5 +72,12 @@
       </div>
     </div>
     <?php  require "footer.php" ?>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/table2excel.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        alert("hello holly");
+      });
+    </script>
   </body>
 </html>
