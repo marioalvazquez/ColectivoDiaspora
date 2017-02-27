@@ -67,8 +67,8 @@
               </tbody>
             </table>
             </div>
-            <div class="card-action right-align texto-azul">
-              <a href="#" id="descargar"><i class="small material-icons">swap_vert</i>Descargar</a>
+            <div class="card-action right-align">
+              <a href="#" id="descargar" class="texto-azul"><i class="small material-icons">swap_vert</i>Descargar</a>
             </div>
           </div>
         </div>
