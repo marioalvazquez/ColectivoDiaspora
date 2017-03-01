@@ -122,6 +122,12 @@
                   <td>Jueves, Viernes y Sábado de 10 a 2pm</td>
                 </tr>
                 <tr>
+                  <td>Fusión de culturas Brasil - México</td>
+                  <td>Colectivo Diaspora</td>
+                  <td>Evento previo a conferencia</td>
+                  <td>Plaza Célebre del Museo Descubre (5 a 7 pm)</td>
+                </tr>
+                <tr>
                   <td>¿De dónde vienen las ideas?</td>
                   <td>Felipe Taborta</td>
                   <td>Conferencia</td>
@@ -142,51 +148,35 @@
         </div>
         <div class="row">
           <div class="owl-carousel">
-
-              <img src="img/patrocinadores/algomas.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/br.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/cer_1_fenix.png" class="img-owl"/>
-
+              <img src="img/patrocinadores/gob.png" class="img-owl"/>
 
               <img src="img/patrocinadores/descubre.png" class="img-owl"/>
 
-
               <img src="img/patrocinadores/diaspora.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/ellington.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/enterateags.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/epoca_bar.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/homero.png" class="img-owl"/>
-
 
               <img src="img/patrocinadores/idscea.png" class="img-owl"/>
 
-
-              <img src="img/patrocinadores/gob.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/mano.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/pxl.png" class="img-owl"/>
-
-
-              <img src="img/patrocinadores/voces.png" class="img-owl"/>
-
+              <img src="img/patrocinadores/enterateags.png" class="img-owl"/>
 
               <img src="img/patrocinadores/voxradio.png" class="img-owl"/>
 
+              <img src="img/patrocinadores/algomas.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/br.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/cer_1_fenix.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/ellington.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/epoca_bar.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/homero.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/mano.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/pxl.png" class="img-owl"/>
+
+              <img src="img/patrocinadores/voces.png" class="img-owl"/>
           </div>
         </div>
         <br><br>
