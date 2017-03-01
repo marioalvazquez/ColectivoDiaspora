@@ -141,17 +141,52 @@
           <h5 class="header col s12 white-text">Conoce a los responsables de que este evento suceda</h5>
         </div>
         <div class="row">
-          <div class="col s3">
-            <img src="img\apple.jpg" style="width:150px;"/>
-          </div>
-          <div class="col s3">
-            <img src="img\apple.jpg" style="width:150px;"/>
-          </div>
-          <div class="col s3">
-            <img src="img\apple.jpg" style="width:150px;"/>
-          </div>
-          <div class="col s3">
-            <img src="img\apple.jpg" style="width:150px;"/>
+          <div class="owl-carousel">
+
+              <img src="img/patrocinadores/algomas.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/br.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/cer_1_fenix.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/descubre.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/diaspora.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/ellington.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/enterateags.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/epoca_bar.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/homero.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/idscea.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/gob.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/mano.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/pxl.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/voces.png" class="img-owl"/>
+
+
+              <img src="img/patrocinadores/voxradio.png" class="img-owl"/>
+
           </div>
         </div>
         <br><br>
@@ -206,7 +241,7 @@
   <div class="col s12">
     <form class="col s12" method="post" action="registrar.php" id="formulario">
       <div class="row">
-        <p>¡Cupo limitado a 100 personas!</p>
+        <p>¡Cupo limitado a 50 participantes para el taller!</p>
         <div class="input-field col s12 m6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" name="nombre" type="text" class="validate">
@@ -281,8 +316,30 @@ require 'footer.php';
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/owl.carousel.min.js"></script>
       <script>
       $(document).ready(function() {
+        $(".owl-carousel").owlCarousel({
+          responsive:{
+            0:{
+              items:1,
+              nav:true
+            },
+            480:{
+              items:2,
+              nav:false
+            },
+            768:{
+              items:3,
+              loop:false
+            },
+            1024:{
+              items:4,
+              loop:false,
+              nav:true
+            }
+          }
+        });
         $(".button-collapse").sideNav();
         $('.carousel.carousel-slider').carousel({fullWidth: true});
         $('.parallax').parallax();
