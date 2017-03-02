@@ -231,7 +231,7 @@
   <div class="col s12">
     <form class="col s12" method="post" action="registrar.php" id="formulario">
       <div class="row">
-        <p>¡Cupo limitado a 50 participantes para el taller!</p>
+        <p>¡Cupo limitado!</p>
         <div class="input-field col s12 m6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" name="nombre" type="text" class="validate">
@@ -276,8 +276,6 @@
           <select name="evento" class="validate">
             <option value="" disabled selected>Participación</option>
             <option value="Conferencia">Conferencia</option>
-            <option value="Taller">Taller</option>
-            <option value="Ambos">Ambos</option>
           </select>
           <label for="icon_telephone">Evento</label>
         </div>
