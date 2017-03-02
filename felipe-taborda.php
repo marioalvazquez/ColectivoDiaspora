@@ -226,12 +226,12 @@
     </div>
     <div class="row">
       <ul id="tabs-swipe-demo" class="tabs">
-    <li class="tab col s6"><a href="#taller">Taller</a></li>
+    <li class="tab col s6"><a href="#taller">Conferencia</a></li>
   </ul>
   <div class="col s12">
     <form class="col s12" method="post" action="registrar.php" id="formulario">
       <div class="row">
-        <p>¡Cupo limitado!</p>
+        <p class="texto-verde">¡Cupo para taller agotado!</p>
         <div class="input-field col s12 m6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" name="nombre" type="text" class="validate">
