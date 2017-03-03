@@ -226,12 +226,13 @@
     </div>
     <div class="row">
       <ul id="tabs-swipe-demo" class="tabs">
-    <li class="tab col s6"><a href="#taller">Conferencia</a></li>
+    <li class="tab col s6"><a href="#taller">Registro</a></li>
   </ul>
   <div class="col s12">
     <form class="col s12" method="post" action="registrar.php" id="formulario">
       <div class="row">
-        <p class="texto-verde">¡Cupo para taller agotado!</p>
+        <p>Registro para taller agotado!</p>
+        <p class="texto-verde">Registro para conferencia disponible!</p>
         <div class="input-field col s12 m6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" name="nombre" type="text" class="validate">
@@ -308,22 +309,26 @@ require 'footer.php';
       <script>
       $(document).ready(function() {
         $(".owl-carousel").owlCarousel({
+          autoplay:true,
           responsive:{
             0:{
               items:1,
-              nav:true
+              nav:true,
+              loop:true
             },
             480:{
               items:2,
-              nav:false
+              loop:true,
+              nav:true
+
             },
             768:{
               items:3,
-              loop:false
+              loop:true
             },
             1024:{
               items:4,
-              loop:false,
+              loop:true,
               nav:true
             }
           }
