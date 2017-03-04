@@ -131,7 +131,7 @@
                   <td>¿De dónde vienen las ideas?</td>
                   <td>Felipe Taborta</td>
                   <td>Conferencia</td>
-                  <td>Viernes 17, 7:00 pm - 9:00 pm</td>
+                  <td>Viernes 17, 5:00 pm - 9:00 pm</td>
                 </tr>
               </tbody>
             </table>
