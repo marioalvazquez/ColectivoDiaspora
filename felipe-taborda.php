@@ -255,8 +255,8 @@
         </div>
         <div class="input-field col s12">
           <i class="material-icons prefix">stars</i>
-          <select name="tipoasistente" class="validate" id="tipoAsistente">
-            <option value="" disabled selected>Selecciona tu perfil</option>
+          <select name="tipoasistente" class="validate" id="tipoAsistente" required="true">
+            <option value="" disabled selected>Selecciona tu perfil (Obligatorio)</option>
             <option value="Estudiante">Estudiante</option>
             <option value="Profesionista">Profesionista</option>
           </select>
@@ -274,8 +274,8 @@
         </div>
         <div class="input-field col s12">
           <i class="material-icons prefix">turned_in</i>
-          <select name="evento" class="validate">
-            <option value="" disabled selected>Participación</option>
+          <select name="evento" class="validate" required="true">
+            <option value="" disabled selected>Participación (Obligatorio)</option>
             <option value="Conferencia">Conferencia</option>
           </select>
           <label for="icon_telephone">Evento</label>
