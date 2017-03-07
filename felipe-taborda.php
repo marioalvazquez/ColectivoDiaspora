@@ -130,8 +130,8 @@
                 <tr>
                   <td>¿De dónde vienen las ideas?</td>
                   <td>Felipe Taborta</td>
-                  <td>Conferencia</td>
-                  <td>Viernes 17, 5:00 pm - 9:00 pm</td>
+                  <td>Conferencia Magistral, Batucada, Pasarela, Degustaciónn de Chela y Regalos</td>
+                  <td>Viernes 17, 5:00 pm</td>
                 </tr>
               </tbody>
             </table>
