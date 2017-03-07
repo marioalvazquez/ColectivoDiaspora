@@ -119,19 +119,19 @@
                   <td>Creación músical, solo el diseño salva</td>
                   <td>Felipe Taborta</td>
                   <td>Taller</td>
-                  <td>Jueves, Viernes y Sábado de 10 a 2pm</td>
+                  <td>Jueves 16, Viernes 17 y Sábado 18 de 10 a 2pm</td>
                 </tr>
                 <tr>
                   <td>Fusión de culturas Brasil - México</td>
                   <td>Colectivo Diaspora</td>
                   <td>Evento previo a conferencia</td>
-                  <td>Plaza Célebre del Museo Descubre (5 a 7 pm)</td>
+                  <td>Plaza Célebre del Museo Descubre, Viernes 17 (5 a 7 pm)</td>
                 </tr>
                 <tr>
                   <td>¿De dónde vienen las ideas?</td>
                   <td>Felipe Taborta</td>
-                  <td>Conferencia</td>
-                  <td>7:00 pm - 9:00 pm</td>
+                  <td>Conferencia Magistral, Batucada, Pasarela, Degustaciónn de Chela y Regalos</td>
+                  <td>Viernes 17, 5:00 pm</td>
                 </tr>
               </tbody>
             </table>
